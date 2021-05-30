@@ -7,4 +7,4 @@ request.setRequestHeader('Content-Type', 'application/json, charset=utf-8');
 let data = JSON.stringify(request.response);
 request.send();
 
-console.log(JSON.parse(data);
+console.log(data);
