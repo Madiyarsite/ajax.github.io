@@ -1,5 +1,5 @@
 let request = new XMLHttpRequest();
-request.open('GET', '/ex.json');
+request.open('GET', './ex.json');
 
 request.responseType = 'json';
 request.setRequestHeader('Content-Type', 'application/json, charset=utf-8');
