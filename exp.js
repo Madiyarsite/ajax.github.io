@@ -2,7 +2,7 @@ let kzt = document.getElementById("kzt"),
     usd = document.getElementById("usd");
    kzt.addEventListener('input', ()=>{
     let request = new XMLHttpRequest();
-    request.open('GET', 'js/json.json');
+    request.open('GET', '/ex.json');
     request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     request.send();
     request.addEventListener('readystatechange', function(){
